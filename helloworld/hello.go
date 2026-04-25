@@ -4,13 +4,13 @@ import "fmt"
 
 const (
 	spanish = "Spanish"
-	french = "French"
-	german = "German"
+	french  = "French"
+	german  = "German"
 
 	englishHelloPrefix = "Hello, "
 	spanishHelloPrefix = "Hola, "
-	frenchHelloPrefix = "Bonjour, "
-	germanHelloPrefix = "Hallo, "
+	frenchHelloPrefix  = "Bonjour, "
+	germanHelloPrefix  = "Hallo, "
 )
 
 func Hello(name string, language string) string {
